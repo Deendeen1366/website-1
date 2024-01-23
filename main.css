@@ -1,0 +1,216 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:'poppins', sans-serif; ;
+}
+
+body{
+    height: 100vh;
+    color: rgb(51, 50, 50);
+    background-color: rgb(255, 255, 255);
+}
+li{
+    list-style: none;
+}
+.Navbar{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width: 100%;
+ padding: 24px 32px;
+ border-bottom: 2px solid  rgba(206, 205, 205, 0.5);
+ box-shadow: 4px 6px rgba(243, 240, 240, 0.5);
+}
+
+.links{
+    display: flex;
+    gap: 2rem;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.fa-heart, .fa-cart-shopping, .fa-comment,.fa-bag-shopping{
+    font-size: 24px;
+}
+
+.logo_one , .logo_three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.attire{
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.heart, .comment, .cart{
+    display: flex;
+    position: relative;
+
+}
+.notification{
+    position: absolute;
+    background-color: rgb(250, 54, 54);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 6px;
+    right: 0;
+    top: 0;
+}
+
+
+.action_btn{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 6px 10px;
+    border-radius: 20px;
+    outline: none;
+}
+
+
+
+/*New Collection section*/
+
+.Newcollection_container, .special_collection_container{
+    width: 100%;
+    margin-top: 54px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.vertical_line{
+    width: 3px;
+    background-color: tomato;
+    height: 24px;
+}
+.Newcollection{
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+.filter_container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2.5rem;
+   margin: 40px 0px;
+}
+.collection_filter{
+    text-decoration: none;
+    border: 2px solid rgb(51, 50, 50) ;
+    border-radius: 20px;
+    padding: 6px 20px; 
+    color: black;
+    font-weight: 500;
+}
+.Newcollection_product_cards{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.product_card_container{
+    width: 200px; 
+}
+
+.product_card_img{
+    height: 250px;
+    width: 200px;
+    background-color: rgb(245, 243, 243);
+    position: relative;
+    border-radius: 8px;
+}
+.image_container,.collection_image_container{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    mix-blend-mode: multiply;
+    
+}
+.sale{
+    background-color: tomato;
+    color: white;
+    font-weight: 500;
+    font-size: 10px;
+    width: fit-content;
+    padding: 6px 3px;
+    border-radius: 20px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.product_card_content,.collection_card_content{
+    width: 100%;
+    text-align: center;
+    margin-top: 12px;
+    
+}
+.stars{
+    margin-bottom: 8px;
+    color: rgb(240, 66, 36);
+}
+
+.label{
+    font-weight: 300;
+    color: rgb(51, 50, 50) ;
+    margin-bottom: 0px;
+    margin-bottom: 8px;
+}
+
+.price{
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+
+/*Speciak collection container*/
+
+.special_collection_cards{
+   display: flex;
+   gap: 1.5rem;
+   justify-content: center;
+   align-items: center;
+   margin-top: 54px;
+}
+.collection_card_container{
+    width: 200px;
+
+}
+.collection_card_img{
+    height: 300px;
+    width: 200px;
+    background-color: rgb(245, 243, 243);
+    position: relative;
+    border-radius: 8px; 
+}
+
+.collection_card_img > .fa-heart{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: tomato;
+}
+.add_to_cart{
+    text-decoration: none;
+    border: 2px solid rgb(51, 50, 50);
+    color: rgb(51, 50, 50);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* ads bg */
+
+
+    
